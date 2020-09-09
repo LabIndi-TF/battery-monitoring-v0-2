@@ -7,7 +7,7 @@ Program Battery Monitoring (Node.js - Express - React). This project was bootstr
 3. Install express dan serialport dengan ```npm install express serialport```
 4. Pergi ke direktori backend dengan ```cd backend```, lalu ```node node_server.js```
 5. Kembali ke root dengan ```cd ../```, lalu ```npm start```
-6. Cek di browser, http://localhost:3000 untuk UI React, http://localhost:5000/buffer untuk buffer data nya
+6. Cek di browser, http://localhost:3000 untuk UI React, http://localhost:5000/buffer untuk buffer data nya.
     Sementara ini, program dibuat untuk single user. Login dengan username "root" dan password "password".
 
 ## Setup Hardware
