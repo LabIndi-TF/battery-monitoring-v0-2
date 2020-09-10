@@ -27,6 +27,7 @@ class ChartComp extends Component {
         this.buildChart();
     }
     componentDidUpdate() {
+        clearInterval(this.ChartCompTimer);
         this.buildChart();
     }
     componentWillUnmount(){
